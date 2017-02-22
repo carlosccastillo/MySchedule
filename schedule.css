@@ -1,0 +1,46 @@
+h1 {
+  color: #680148;
+  opacity: 5;
+  text-shadow: 2px 2px #E0EFF1;
+}
+body{
+  background-color: #FAFAD2;
+}
+table, th, td {
+  border: 1px solid black;
+  text-align: left;
+}
+
+table {
+  width: 70%;
+}
+
+tr {
+  width: 60%;
+  height: 50px;
+  color: #E0EFF1;
+}
+
+th {
+  font-weight: bolder;
+  text-decoration: line-through;
+}
+
+/* Color Palette adapted from: http://www.colourlovers.com/palette/132637/Odd_but_trendy  */
+
+tr:nth-child(even) {
+  background: #E0EFF1;
+}
+
+tr:nth-child(odd) {
+  background: #680148;
+}
+
+tr.ex {
+  color: #680148;
+}
+
+td:hover {
+  background: #7DB4B5;
+  color: #FFFFFF;
+}
